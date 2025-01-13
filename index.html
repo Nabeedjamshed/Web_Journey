@@ -1,0 +1,36 @@
+<!-- there are 2 types of tag in html 
+1. Self closing tag -> ismai just opening tag hota like <meta>
+2. Pair tag -> opening and closing both tag hote just like <head></head> -->
+
+<!DOCTYPE html>
+
+<!--The <!DOCTYPE html> declaration is an instruction to the web browser about the version of HTML the webpage is written in. It is placed at the very top of an HTML document and is essential for proper rendering.
+Declares that the document type is HTML5.
+HTML5 is the latest and most widely supported version of HTML.
+Unlike older versions (like HTML 4.01), the HTML5 doctype is short, simple, and case-insensitive.-->
+
+<html lang="en"> <!--language(english)-->
+<head>
+    <!--Metadata is not displayed on the webpage but is used by browsers and search engines.-->
+    <meta charset="UTF-8"> <!--encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <!--why above tag?
+    Without this tag, mobile browsers often render the webpage at a default width (usually around 980px), making the content appear zoomed out on smaller screens.
+    This tag ensures:
+    1. Proper scaling and responsiveness of the page.
+    2. A better user experience on mobile devices.-->
+
+    <meta name="description" content="This is a car video"> <!-- google jo niche show krata hai wo yhi hota hai -->
+    <title>First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Hey This is my first Website.
+    <video src="car.mp4" controls></video>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

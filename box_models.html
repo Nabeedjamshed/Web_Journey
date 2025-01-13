@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        .box{
+            color: red;
+        }
+        .box2{
+            color: blue;
+            margin: 20px;
+            border: solid brown;
+            padding: 20px;
+            height: 200px;
+            box-sizing: border-box;
+        } 
+        .box1{
+            background-color: white;
+            background-color: aqua;
+            margin: 10px;
+            border: solid black;
+            padding: 20px;
+            height: 200px;
+            box-sizing: border-box; /*due to this ab 200 height mai content+left padding+right pading+left border+right border */
+        }
+        /* margin collapes: agr 2 elements ki margin collapes krti hai like box1 and box2, so dono mai se jo maximum margin hogi wo lggaegi between both paragraphs. */
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        I am first box
+    </div>
+    <div class="box box2">
+        I am second box <br>
+        <img src="img.png" alt="Error">
+    </div>
+</body>
+</html>

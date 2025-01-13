@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+</head>
+
+<body>
+    <main>
+        <h1>Personal Details</h1>
+        <form action="script.js" method="post">
+            <fieldset>
+                <legend>Salutation</legend>
+                <div>
+                    <label for="salutation">Salutation</label>
+                    <select name="salutation" id="salute">
+                        <option value="Respected Sir">Respected Sir</option>
+                        <option value="Respected Madam">Respected Madam</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Name</legend>
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="firstname" id="first_name" required autofocus />
+                </div>
+                <div>
+                    <label for="Last_name">Last Name</label>
+                    <input type="text" name="Lastname" id="Last_name" required autofocus />
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Account Information</legend>
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="password" pattern="[a-zA-Z0-9]+" name="Password" id="Password" required autofocus />
+                </div>
+                <div>
+                    <label>Gender</label>
+                    <input type="radio" name="gender" id="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="Female" />
+                    <label for="Female">Female</label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Contact Details</legend>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div>
+                    <label for="date_of_birth">Date of Birth</label>
+                    <input type="date" name="date_of_birth" id="date_of_birth" />
+                </div>
+                <div>
+                    <label for="Address">Address</label>
+                    <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
+                </div>
+            </fieldset>
+            
+            <div>
+                <input type="button" name="submit" id="submit" value="Submit" />
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

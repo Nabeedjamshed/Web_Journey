@@ -1,0 +1,67 @@
+/* Element Selector */
+div{
+    color: red;
+    background-color: yellow;
+}
+
+/* Class Selector */
+.blue{
+    color: aqua;
+    background-color: black;
+    text-decoration: underline;
+}
+
+/* ID Selector */
+#my{
+    color: wheat;
+    background-color:blueviolet;
+}
+
+/* Universal Selector */
+* {
+    margin: 1;
+    padding: 0;
+    color: purple;
+    text-align: center;
+}
+
+/* Group Selector */
+div, p{
+    font-size: large;
+    border: solid black;
+}
+
+/* Child Selector */
+main > p{
+    background-color: brown;
+    color: white;
+}
+
+/* Descendent selector */
+footer  p{
+    background-color: blue;
+    color: white;
+}
+
+/* Pseudo Selectors */
+
+a:visited{ /* jb user link per click krega tu uske baad iska color change hojaega */
+    color: rgb(2, 69, 22);
+}
+
+
+a:link{
+    color:brown;
+}
+
+a:active{
+    background-color: red;
+}
+
+a:hover{
+    background-color: lightblue;
+}
+
+p:first-child{ /*yha bhi p first child hoga ussi ka color change hoga */
+    background-color: aqua;
+}

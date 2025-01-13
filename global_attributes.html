@@ -1,0 +1,21 @@
+1.class
+2.id
+3. The `data-user` attribute is a custom data attribute in HTML, commonly used to store extra information about an element that isn't visible on the page but can be accessed by JavaScript. These data attributes allow you to store information in HTML elements without affecting the content or styling of the page.
+
+In your example:
+
+```html
+<div data-user="123">Custom Data</div>
+```
+
+- `data-user="123"` is a custom attribute where `user` is the name of the attribute, and `123` is the value stored within it.
+- This information can be retrieved using JavaScript, for example:
+
+```javascript
+let element = document.querySelector('div');
+console.log(element.dataset.user);  // Output: 123
+```
+
+The `data-` prefix is a part of the HTML5 specification that enables custom attributes without causing conflicts with existing attributes. You can store any data you need and later use it in scripts or other parts of your application.
+
+<p data-name="Nabeed"></p>

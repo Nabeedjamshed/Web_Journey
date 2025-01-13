@@ -1,0 +1,40 @@
+Core Web Vitals Google ke taraf se define ki gayi performance metrics hain jo kisi website ki **user experience** ko measure karne ke liye use hoti hain. Yeh metrics teen primary aspects ko cover karti hain: **loading speed**, **interactivity**, aur **visual stability**. Inka focus yeh ensure karna hota hai ke website fast, responsive aur visually consistent ho. Chaliye inko detail mein samajhte hain:
+
+---
+
+### 1. **Largest Contentful Paint (LCP) – Loading**
+Yeh measure karta hai ke ek page ka **main content** kitni jaldi user ke saamne load hota hai.  
+- **Ideal Time**: 2.5 seconds ya usse kam.
+- **Example**: Agar ek page ka hero image ya main headline load hone mein zyada waqt lagta hai, to LCP ka score kharab ho jata hai.
+
+---
+
+### 2. **First Input Delay (FID) – Interactivity**
+Yeh measure karta hai ke user aur website ke beech pehli interaction (like button click ya input field select karna) ke response mein kitna time lagta hai.  
+- **Ideal Time**: 100 milliseconds ya usse kam.
+- **Example**: Agar ek user button click kare aur page slow respond kare, to FID ka score kharab ho jata hai.
+
+---
+
+### 3. **Cumulative Layout Shift (CLS) – Visual Stability**
+Yeh measure karta hai ke ek page ke elements (text, images, buttons) apni jagah se kitna move karte hain jab page load ho raha ho.  
+- **Ideal Score**: 0.1 ya usse kam.  
+- **Example**: Agar text ya button unexpected position change kare, to user galat button click kar sakta hai, jo kharab UX create karta hai.
+
+---
+
+### **Core Web Vitals ko Improve Karna Kyu Zaroori Hai?**
+- **SEO Boost**: Google in metrics ko ranking factors mein shamil karta hai.
+- **Better UX**: Fast aur stable website zyada users ko engage karti hai.
+- **Bounce Rate Reduction**: Slow aur unstable pages ka bounce rate high hota hai.
+
+---
+
+### Core Web Vitals Kaise Measure Kar Sakte Hain?
+1. **Google Tools:**
+   - [Google PageSpeed Insights](https://pagespeed.web.dev/)
+   - [Google Search Console](https://search.google.com/search-console/)
+2. **Browser DevTools:** Chrome ke DevTools mein performance audit kar ke bhi check kiya ja sakta hai.
+3. **Web Vitals Extension:** Chrome extension jo real-time vitals ko monitor karne mein madad karta hai.
+
+---
